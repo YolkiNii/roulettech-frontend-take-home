@@ -1,0 +1,9 @@
+main {
+  height: 100vh;
+  background-color: #e3e2df;
+}
+
+input {
+  border-radius: 5px;
+  background-color: white;
+}

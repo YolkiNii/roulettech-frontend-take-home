@@ -1,0 +1,60 @@
+.focus-blog {
+  max-width: 600px;
+  min-width: 400px;
+  margin: auto;
+}
+
+.focus-blog-content {
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 0px 25px;
+  text-align: left;
+  padding: 5px;
+  min-height: 75px;
+}
+
+.comments-error {
+  color: red;
+}
+
+.focus-blog-title {
+  font-size: 30px;
+}
+
+.comments-section {
+  text-align: left;
+  margin: 0px 25px;
+}
+
+.entry-comment-body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.blog-comments {
+  list-style-type: none;
+}
+
+.add-comment {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid lightblue;
+  transition: 0.3s ease;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.add-comment:hover {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, .2);
+  cursor: pointer;
+}
+
+.blog-comment *:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.comment-date {
+  color: gray;
+}

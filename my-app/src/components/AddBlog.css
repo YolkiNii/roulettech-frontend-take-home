@@ -1,0 +1,40 @@
+.blog-entry-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-entry-form *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.blog-entry-error {
+  color: red;
+}
+
+.blog-entry-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  height: 40px;
+  padding: 5px;
+}
+
+.blog-entry-body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.blog-entry-submit {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid lightblue;
+  transition: 0.3s ease;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.blog-entry-submit:hover {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, .2);
+  cursor: pointer;
+}
